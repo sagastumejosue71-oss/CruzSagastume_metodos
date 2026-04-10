@@ -11,9 +11,9 @@ $Maytermin = strlen($terminos1);
 $maycategoy= strlen($categoria1);
 
 echo "<p> Resultados de la Busqueda </p>";
-echo "<p> Busco el nombre de: " .$terminos1 . "  El es un:  .$categoria1 </p>";
-echo "<p> la persona tiene " .$cantLetTermin . "Letras. </p>";
-echo "<p> en minusculas el nombe es:  . $Maytermin </p>";
+echo "<p> Busco el nombre de: " .$terminos1 . "  El es un :  .$categoria1 </p>";
+echo "<p> la persona tiene " .$cantLetTermin . " Letras. </p>";
+echo "<p> en minusculas el nombe es :  . $Maytermin </p>";
 
 } else {
     echo "Debe Ingresar un termino. <a href='buscar.html'>Volver</a>";
